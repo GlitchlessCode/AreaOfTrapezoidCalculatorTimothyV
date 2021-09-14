@@ -11,7 +11,7 @@ function calculateArea() {
     let height = +document.getElementById("inHeight").value;
 
     // Process
-    let trapezoidArea = ((sideA+sideB)*height)/2;
+    let trapezoidArea = ((sideA + sideB) * height) / 2;
     // Output
     document.getElementById("areaOut").innerHTML = trapezoidArea;
 
