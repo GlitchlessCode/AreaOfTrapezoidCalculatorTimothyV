@@ -1,0 +1,51 @@
+/* Element Selectors */
+
+/* Blue Background */
+html {
+    background: blue;
+}
+
+body {
+    /* body size, color and shape*/
+    background: white;
+    width: 600px;
+    border-radius: 30px;
+    /* body positioning */
+    margin: 50px auto;
+    padding: 50px 100px;
+}
+
+/* Image file */
+img {
+    /* gray border */
+    border: 1px solid gray;
+}
+
+/* Both Header Types */
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Button */
+button {
+    /* Button */
+    background: maroon;
+    padding: 2px 10px;
+    cursor: pointer;
+    /* Text */
+    color: white;
+    font-size: 18px;
+}
+
+/* link */
+a {
+    color: blue;
+}
+
+/* ID selectors */
+
+/* middle paragraph */
+#inputs {
+    line-height: 42px;
+}
