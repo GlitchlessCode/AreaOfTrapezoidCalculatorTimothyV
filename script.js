@@ -6,12 +6,13 @@ document.getElementById("calcBtn").addEventListener("click", calculateArea);
 // Functions
 function calculateArea() {
     // Input
-    sideA = +document.getElementById("inA").value;
-    sideB = +document.getElementById("inB").value;
-    height = +document.getElementById("inHeight").value;
-    // Process
-    
-    // Output
+    let sideA = +document.getElementById("inA").value;
+    let sideB = +document.getElementById("inB").value;
+    let height = +document.getElementById("inHeight").value;
 
+    // Process
+    let trapezoidArea = ((sideA+sideB)*height)/2;
+    // Output
+    document.getElementById("areaOut").innerHTML = trapezoidArea;
 
 }
