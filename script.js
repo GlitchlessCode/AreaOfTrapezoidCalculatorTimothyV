@@ -10,7 +10,7 @@ function calculateArea() {
     sideB = +document.getElementById("inB").value;
     height = +document.getElementById("inHeight").value;
     // Process
-
+    
     // Output
 
 
